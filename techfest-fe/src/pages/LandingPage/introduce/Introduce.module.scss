@@ -1,0 +1,63 @@
+.warpper {
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+
+    .inner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+
+        .content-overview {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            span {
+                font-size: 1.6rem;
+                font-weight: 500;
+                line-height: 2.4rem;
+            }
+        }
+
+        h1 {
+            color: #4285f4;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .content-history {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        hr {
+            gap: 10px;
+        }
+
+        .content-advisor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+
+            span {
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 44px;
+            }
+
+            .logo-guilding {
+                display: flex;
+                gap: 16px;
+            }
+        }
+    }
+}

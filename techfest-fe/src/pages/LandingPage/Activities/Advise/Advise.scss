@@ -1,0 +1,139 @@
+.advise-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 12px 0 24px 0;
+
+    .inner {
+        width: 100%;
+
+        .content-main-advise {
+            width: 100%;
+
+            .search-group {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .form-group {
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 40%;
+
+                    label {
+                        color: #0d90c2;
+                        font-weight: 400;
+                        font-size: 1.8rem;
+                        line-height: 1.8rem;
+                        margin-bottom: 12px;
+                    }
+                }
+
+                .search-btn {
+                    margin-top: 24px;
+
+                    button {
+                        min-width: 120px;
+                        height: 35px;
+                        background: #0d90c2;
+                        border-radius: 8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #ffffff;
+                        transition: 0.3s;
+
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+            }
+
+            .consultants-wrapper {
+                width: 100%;
+                margin-top: 28px;
+
+                .consultants-list {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 16px;
+
+                    .consultants-item {
+                        display: flex;
+                        border: 1px solid #4285f4;
+                        box-shadow: 0px -12px 5px rgba(66, 62, 62, 0.01), 0px -7px 4px rgba(66, 62, 62, 0.05),
+                            0px -3px 3px rgba(66, 62, 62, 0.09), 0px -1px 2px rgba(66, 62, 62, 0.1),
+                            0px 0px 0px rgba(66, 62, 62, 0.1);
+                        border-radius: 14px;
+                        padding: 12px;
+
+                        .consultants-image {
+                            width: 140px;
+                            height: 140px;
+                            margin-right: 12px;
+
+                            img {
+                                width: 140px;
+                                height: 140px;
+                                border-radius: 12.4444px;
+                            }
+                        }
+
+                        .consultants-details {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+
+                            .consultants-details__left {
+                                flex: 1 1;
+                                display: flex;
+                                flex-direction: column;
+                                row-gap: 8px;
+
+                                .consultants-details__name {
+                                    font-weight: 600;
+                                    font-size: 2.4rem;
+                                    line-height: 1.8rem;
+                                }
+
+                                .consultants-details-grey {
+                                    font-weight: 400;
+                                    font-size: 2rem;
+                                    line-height: 1.8rem;
+                                }
+                            }
+
+                            .consultants-details__right {
+                                display: flex;
+                                flex-direction: column;
+                                row-gap: 20px;
+
+                                .consultants-details__action {
+                                    border: 1px solid #25aae1;
+                                    border-radius: 14px;
+                                    padding: 10px 30px;
+                                    display: flex;
+                                    column-gap: 8px;
+                                    align-items: center;
+                                    transition: 0.3s;
+
+                                    svg {
+                                        font-size: 2rem;
+                                        color: #25aae1;
+                                    }
+
+                                    &:hover {
+                                        cursor: pointer;
+                                        background-color: bisque;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
